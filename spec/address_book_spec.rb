@@ -3,8 +3,8 @@ require('address_book')
 
 describe('AddressBook') do
 
-  describe('#contacts') do
-    it('return added contacts in an array') do
+  describe('#add_contact') do
+    it('returns added contacts in an array') do
       test_address_book = AddressBook.new()
       test_contact = Contact.new(:first_name => "Toby", :last_name => "Alden", :birth_year => 1991)
       test_address_book.add_contact(test_contact)

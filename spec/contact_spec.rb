@@ -3,7 +3,7 @@ require('contact')
 
 #contact object
 describe('Contact') do
-  describe('#first_name') do
+  describe('#initialize') do
     it('will return stored init values of contact') do
       test_contact = Contact.new({ :first_name => "Drew", :last_name => "Finstrom", :birth_year => 1979})
       expect(test_contact.first_name).to(eq("Drew"))
