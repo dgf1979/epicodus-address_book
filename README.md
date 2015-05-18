@@ -6,7 +6,7 @@ This application is meant to fulfill the requirements of an assignment through E
 
 ### Author(s) ###
 
-Andrew Finstrom & Pair Partner
+Andrew Finstrom & Tobu Alden
 
 ### License ###
 This is free and unencumbered software released into the public domain.
